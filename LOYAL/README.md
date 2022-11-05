@@ -7,13 +7,6 @@ RAM 4GB
 Disk 80GB
 Koneksi Internet yang persisten (lalu lintas minimum 10Mbps selama testnet - setidaknya 100Mbps diharapkan untuk produksi)
 
-## Persyaratan Perangkat Keras yang Direkomendasikan
-
-4x CPU; semakin tinggi kecepatan clock semakin baik
-RAM 8 GB
-Penyimpanan 200GB (SSD atau NVME)
-Koneksi Internet yang persisten (lalu lintas minimum 10Mbps selama testnet - setidaknya 100Mbps diharapkan untuk produksi)
-
 ### ✅️ Website Explorer
 
 https://explorer.nodestake.top/loyal-testnet
