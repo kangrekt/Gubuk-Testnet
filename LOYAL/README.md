@@ -75,7 +75,7 @@ Jika Anda tidak dapat melihat saldo di dompet, simpul Anda mungkin masih disinkr
 ```
 loyald tx staking create-validator \
   --amount loyald tx staking create-validator \
-  --amount 2000000ulyl \
+  --amount 1900000ulyl \
   --from LYL_WALLET \
   --commission-max-change-rate "0.01" \
   --commission-max-rate "0.2" \
