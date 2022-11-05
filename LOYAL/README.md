@@ -32,11 +32,11 @@ loyald status 2>&1 | jq .SyncInfo
 ### Membuat Dompet
 Gunakan perintah berikut Untuk membuat dompet baru, Keyring pharphase isi katasandi bebas
 ```
-loyald keys add $LYL_WALLET
+loyald keys add LYL_WALLET
 ```
 (OPSIONAL) Untuk memulihkan dompet Anda menggunakan mnemonic:
 ```
-loyald keys add $LYL_WALLET --recover
+loyald keys add LYL_WALLET --recover
 ```
 ### Untuk mengetahui daftar dompet saat ini:
 ```
@@ -46,11 +46,11 @@ loyald keys list
 
 Tambahkan Alamat Dompet:
 ```
-LYL_WALLET_ADDRESS=$(loyald keys show $LYL_WALLET -a)
+LYL_WALLET_ADDRESS=$(loyald keys show LYL_WALLET -a)
 ```
 Enter keyring passphrase: Kata Sandi Anda
 ```
-LYL_VALOPER_ADDRESS=$(loyald keys show $LYL_WALLET --bech val -a)
+LYL_VALOPER_ADDRESS=$(loyald keys show LYL_WALLET --bech val -a)
 ```
 Enter keyring passphrase: Isi Kandi Sandi Anda
 ```
@@ -67,7 +67,7 @@ Ubah WALLETLOYAL manjadi wallet Loyal Anda
 
 ## Untuk memeriksa saldo dompet Anda:
 ```
-loyald query bank balances $LYL_WALLET_ADDRESS
+loyald query bank balances LYL_WALLET_ADDRESS
 ```
 Jika Anda tidak dapat melihat saldo di dompet, simpul Anda mungkin masih disinkronkan. Harap tunggu hingga sinkronisasi selesai, lalu lanjutkan.
 
@@ -76,7 +76,7 @@ Jika Anda tidak dapat melihat saldo di dompet, simpul Anda mungkin masih disinkr
 loyald tx staking create-validator \
   --amount loyald tx staking create-validator \
   --amount 2000000ulyl \
-  --from $LYL_WALLET \
+  --from LYL_WALLET \
   --commission-max-change-rate "0.01" \
   --commission-max-rate "0.2" \
   --commission-rate "0.07" \
@@ -134,54 +134,54 @@ loyald keys list
 ```
 ### Pulihkan dompet menggunakan Mnemonic:
 ```
-loyald keys add $LYL_WALLET --recover
+loyald keys add LYL_WALLET --recover
 ```
 ### Delet Wallet:
 ```
-loyald keys delete $LYL_WALLET
+loyald keys delete LYL_WALLET
 ```
 ### Check Saldo Wallet:
 ```
-loyald query bank balances $LYL_WALLET_ADDRESS
+loyald query bank balances LYL_WALLET_ADDRESS
 ```
 ### Transfer Saldo Wallet ke Wallet:
 ```
-loyald tx bank send $LYL_WALLET_ADDRESS <TO_WALLET_ADDRESS> 10000000ulyl
+loyald tx bank send LYL_WALLET_ADDRESS <TO_WALLET_ADDRESS> 10000000ulyl
 ```
 ### pemungutan suara
 ```
-loyald tx gov vote 1 yes --from $LYL_WALLET --chain-id=$LYL_ID
+loyald tx gov vote 1 yes --from LYL_WALLET --chain-id=$LYL_ID
 ```
 ### Pasak, Delegasi, dan Penghargaan
 
 Proses Delegasi:
 ```
-loyald tx staking delegate $LYL_VALOPER_ADDRESS 10000000ulyl --from=$LYL_WALLET --chain-id=$LYL_ID --fees 250ulyl
+loyald tx staking delegate $LYL_VALOPER_ADDRESS 10000000ulyl --from=LYL_WALLET --chain-id=$LYL_ID --fees 250ulyl
 ```
 ### Mentransfer ulang bagian dari validator ke validator lain:
 ```
-loyald tx staking redelegate <srcValidatorAddress> <destValidatorAddress> 10000000ulyl --from=$LYL_WALLET --chain-id=$LYL_ID --fees 250ulyl
+loyald tx staking redelegate <srcValidatorAddress> <destValidatorAddress> 10000000ulyl --from=LYL_WALLET --chain-id=$LYL_ID --fees 250ulyl
 ```
 ### Tarik semua hadiah:
 ```
-loyald tx distribution withdraw-all-rewards --from=$LYL_WALLET --chain-id=$LYL_ID --fees 250ulyl
+loyald tx distribution withdraw-all-rewards --from=LYL_WALLET --chain-id=$LYL_ID --fees 250ulyl
 ```
 ### Tarik hadiah dengan komisi:
 ```
-loyald tx distribution withdraw-rewards $LYL_VALOPER_ADDRESS --from=$LYL_WALLET --commission --chain-id=$LYL_ID
+loyald tx distribution withdraw-rewards $LYL_VALOPER_ADDRESS --from=LYL_WALLET --commission --chain-id=$LYL_ID
 ```
 ### Ubah Nama Validator:
 ```
 loyald tx staking edit-validator \
 --moniker=NEWNODENAME \
 --chain-id=$LYL_ID \
---from=$LYL_WALLET
+--from=LYL_WALLET
 ```
 ### Keluar Dari Penjara (Dibebaskan):
 ```
 loyald tx slashing unjail \
   --broadcast-mode=block \
-  --from=$LYL_WALLET \
+  --from=LYL_WALLET \
   --chain-id=$LYL_ID \
   --gas=auto --fees 250ulyl
 ```
