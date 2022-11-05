@@ -22,7 +22,7 @@ https://docs.joinloyal.io/validators/run-a-loyal-validator
 ## Instalisasi Otomatis
 
 ```
-wget -O loyal.sh https://raw.githubusercontent.com/8corekt/Gubuk-Testnet/main/LOYAL/loyal.sh && chmod +x loyal.sh && ./loyal.sh
+wget -O loyal.sh https://raw.githubusercontent.com/kangrekt/Gubuk-Testnet/main/LOYAL/loyal.sh && chmod +x loyal.sh && ./loyal.sh
 ```
 
 ### Langkah-Langkah Pasca-Instalasi
