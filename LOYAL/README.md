@@ -69,7 +69,7 @@ curl -X POST "https://faucet.joinloyal.io/" -H  "accept: application/json" -H  "
 ```
 Ubah WALLETLOYAL manjadi wallet Loyal Anda
 
-## Untuk memeriksa saldo dompet Anda:
+## Cek Saldo:
 ```
 loyald query bank balances LYL_WALLET_ADDRESS
 ```
@@ -99,18 +99,18 @@ Manajemen Pelayanan Periksa Log:
 journalctl -fu loyald -o cat
 ```
 
-Memulai layanan:
+Mulai Service:
 
 ```
 systemctl start loyald
 ```
 
-Berhenti Layanan:
+Stop ServiceService:
 
 ```
 systemctl stop loyald
 ```
-Mulai Ulang Layanan:
+Restart ServiceService:
 ```
 systemctl restart loyald
 ```
@@ -122,7 +122,7 @@ Informasi Validator:
 ```
 loyald status 2>&1 | jq .ValidatorInfo
 ```
-Informasi simpul:
+Informasi Node:
 ```
 loyald status 2>&1 | jq .NodeInfo
 ```
@@ -148,17 +148,17 @@ loyald keys delete LYL_WALLET
 ```
 loyald query bank balances LYL_WALLET_ADDRESS
 ```
-### Transfer Saldo Wallet ke Wallet:
+### Transfer Saldo ke Wallet lain:
 ```
 loyald tx bank send LYL_WALLET_ADDRESS <TO_WALLET_ADDRESS> 10000000ulyl
 ```
-### pemungutan suara
+### Voting Power
 ```
 loyald tx gov vote 1 yes --from LYL_WALLET --chain-id=$LYL_ID
 ```
-### Pasak, Delegasi, dan Penghargaan
+### Stake, Delegate, dan Reward
 
-Proses Delegasi:
+Delegate:
 ```
 loyald tx staking delegate $LYL_VALOPER_ADDRESS 10000000ulyl --from=LYL_WALLET --chain-id=$LYL_ID --fees 250ulyl
 ```
@@ -166,11 +166,11 @@ loyald tx staking delegate $LYL_VALOPER_ADDRESS 10000000ulyl --from=LYL_WALLET -
 ```
 loyald tx staking redelegate <srcValidatorAddress> <destValidatorAddress> 10000000ulyl --from=LYL_WALLET --chain-id=$LYL_ID --fees 250ulyl
 ```
-### Tarik semua hadiah:
+### Claim semua Reward:
 ```
 loyald tx distribution withdraw-all-rewards --from=LYL_WALLET --chain-id=$LYL_ID --fees 250ulyl
 ```
-### Tarik hadiah dengan komisi:
+### Claim Reward:
 ```
 loyald tx distribution withdraw-rewards $LYL_VALOPER_ADDRESS --from=LYL_WALLET --commission --chain-id=$LYL_ID
 ```
@@ -181,7 +181,7 @@ loyald tx staking edit-validator \
 --chain-id=$LYL_ID \
 --from=LYL_WALLET
 ```
-### Keluar Dari Penjara (Dibebaskan):
+### Unjail:
 ```
 loyald tx slashing unjail \
   --broadcast-mode=block \
