@@ -77,7 +77,7 @@ Ubah WALLETLOYAL manjadi wallet Loyal Anda
 ```
 loyald query bank balances LYL_WALLET_ADDRESS
 ```
-Jika Anda tidak dapat melihat saldo di dompet, simpul Anda mungkin masih disinkronkan. Harap tunggu hingga sinkronisasi selesai, lalu lanjutkan.
+Jika saldo masih 0, tunggu sampe tersyncron dlu :v
 
 ## Membuat Validator:
 ```
