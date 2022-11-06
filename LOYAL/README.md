@@ -105,7 +105,7 @@ Mulai Service:
 systemctl start loyald
 ```
 
-Stop ServiceService:
+Stop Service:
 
 ```
 systemctl stop loyald
