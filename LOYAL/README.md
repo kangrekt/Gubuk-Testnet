@@ -7,9 +7,13 @@ RAM 4GB
 Disk 80GB
 Koneksi Internet yang persisten (lalu lintas minimum 10Mbps selama testnet - setidaknya 100Mbps diharapkan untuk produksi)
 
-### ✅️ Discord
+### ✅️ Loyal Discord
 
 https://discord.gg/Az5J2zV8Qj
+
+### ✅️ My server Discord
+
+https://discord.gg/RJBCrAXsru
 
 ### ✅️ Website Explorer
 
