@@ -114,7 +114,7 @@ Stop Service:
 ```
 systemctl stop loyald
 ```
-Restart ServiceService:
+Restart Service:
 ```
 systemctl restart loyald
 ```
