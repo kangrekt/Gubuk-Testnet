@@ -69,7 +69,7 @@ source $HOME/.bash_profile
 ### Claim Faucet
 Gunakan perintah berikut untuk claim Faucet
 ```
-curl -X POST "https://faucet.joinloyal.io/" -H  "accept: application/json" -H  "Content-Type: application/json" -d "{  \"address\": \"WALLETLOYAL\",  \"coins\": [    \"2000000ulyl\"  ]}"
+curl -X POST "https://faucet.joinloyal.io/" -H  "accept: application/json" -H  "Content-Type: application/json" -d "{  \"address\": \"WALLETLOYAL\",  \"coins\": [    \"10000000ulyl\"  ]}"
 ```
 Ubah WALLETLOYAL manjadi wallet Loyal Anda
 
