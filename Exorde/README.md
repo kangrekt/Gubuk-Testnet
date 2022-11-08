@@ -1,4 +1,16 @@
-# Tutorial Exorde Incentive Testnet
+# Tutorial ExordeLabs Incentive Testnet
+
+### ✅️ Exorde Discord
+
+https://discord.gg/exordelabs
+
+### ✅️ My server Discord
+
+https://discord.gg/RJBCrAXsru
+
+### ✅️ Website
+
+https://exorde.network
 
 
 ## Persyaratan perangkat keras
@@ -103,8 +115,10 @@ Untuk masuk ke terminal gunakan perintah
 ```
 screen -r exorde
 ```
+### Jangan lupa Send Feedback di Discord
 
-> Ganti `ALAMAT_ETH_ANDA` dengan alamat eth anda, untuk logging bisa diisi 0, 1, 2, 3, 4 detail logging akan saya jelaskan dibawah
+
+> Untuk logging bisa diisi 0, 1, 2, 3, 4 detail logging akan saya jelaskan dibawah
 
 
 ## Logging
