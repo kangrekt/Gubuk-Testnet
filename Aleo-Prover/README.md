@@ -11,10 +11,6 @@
 
 https://discord.gg/U3BJMSVNVc
 
-### ✅️ My server Discord
-
-https://discord.gg/RJBCrAXsru
-
 ### ✅️ Website
 
 https://www.aleo.org/
