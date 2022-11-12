@@ -9,7 +9,7 @@
 
 # ALEO PROVER TESTNET INCENTIVIZED
 
-### ✅️ Loyal Discord
+### ✅️ Aleo Discord
 
 https://discord.gg/U3BJMSVNVc
 
