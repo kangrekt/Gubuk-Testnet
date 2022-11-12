@@ -1,6 +1,5 @@
 <p style="font-size:14px" align="right">
-<a href="https://t.me/bangpateng_group" target="_blank">Join our telegram <img src="https://www.pngarts.com/files/12/Blue-Discord-Logo-Icon-PNG-Photo.png" width="30"/></a>
-
+<a href="https://t.me/bangpateng_group" target="_blank">Join EG Discord <img src="https://www.pngarts.com/files/12/Blue-Discord-Logo-Icon-PNG-Photo.png" width="30"/></a>
 
 <p align="center">
   <img height="150" height="auto" src="https://user-images.githubusercontent.com/38981255/185994172-0b4e4ea8-f81a-48db-8020-9be619f485b7.png">
