@@ -13,7 +13,7 @@ echo  "                     |___/                        ";
 echo -e "\e[0m"
 echo "==================================================================="
 
-echo -e '\e[36mGarapan :\e[39m' Aleo Prover Testnet
+echo -e '\e[36mGarapan :\e[39m' Gitopia Testnet
 echo -e '\e[36mTwitter :\e[39m' @igot_rug
 echo "======================================="
 
