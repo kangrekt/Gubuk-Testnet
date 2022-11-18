@@ -96,7 +96,7 @@ gitopiad query bank balances $GITOPIA_WALLET_ADDRESS
 To create your validator run command below
 ```
 gitopiad tx staking create-validator \
-  --amount 1000000utlore \
+  --amount 95000000utlore \
   --from $WALLET \
   --commission-max-change-rate "0.01" \
   --commission-max-rate "0.2" \
@@ -104,7 +104,8 @@ gitopiad tx staking create-validator \
   --min-self-delegation "1" \
   --pubkey  $(gitopiad tendermint show-validator) \
   --moniker $NODENAME \
-  --chain-id $GITOPIA_CHAIN_ID
+  --chain-id $GITOPIA_CHAIN_ID \
+  --fees 250utlore
 ```
 ### Check your validator key
 ```
