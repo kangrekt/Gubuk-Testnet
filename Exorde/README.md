@@ -102,8 +102,6 @@ screen -Rd exorde
 Lalu jalankan perintah dibawah (ubah ETHWALLET dengan wallet anda)
 
 ```
-docker rm $(docker ps -a -q) --force
-docker rmi $(docker images -a -q) --force
 docker run -d --restart unless-stopped --pull always --name exorde-cli rg.fr-par.scw.cloud/exorde-labs/exorde-cli -m ETHWALLET -l 2
 ```
 
