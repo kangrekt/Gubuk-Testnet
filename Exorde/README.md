@@ -99,16 +99,12 @@ Buka layar baru menggunakan `screen`
 screen -Rd exorde
 ```
 
-Lalu jalankan perintah dibawah
+Lalu jalankan perintah dibawah (ubah ETHWALLET dengan wallet anda)
 
 ```
-docker run -it exorde-cli -m ALAMAT_ETH_ANDA -l LEVEL_LOGGING
-```
-
-contoh:
-
-```
-docker run -it exorde-cli -m 0x0000002bf118391ebe8d37f7ab2a4d8ae1c45aa3 -l 4
+docker rm $(docker ps -a -q) --force
+docker rmi $(docker images -a -q) --force
+docker run -d --restart unless-stopped --pull always --name exorde-cli rg.fr-par.scw.cloud/exorde-labs/exorde-cli -m ETHWALLET -l 2
 ```
 
 Untuk keluar dari terminal gunakan perintah 
