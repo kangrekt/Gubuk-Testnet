@@ -83,4 +83,6 @@ else
 fi
 
 # Launch the node and CometBFT in tmux
-echo "       OK LANJOOOOOOOOOOOOOOTTTT                  "
+tmux new-session -d -s penumbra './target/release/pd start'
+tmux split-window -h 'cometbft start --home ~/.penumbra/testnet_data/node0/cometbft'
+tmux attach -t penumbra
