@@ -19,7 +19,28 @@ untuk restore ketikan 'restore' (tanpa kutip).. Setelah itu otomatis muncul outp
 
 ##### =>=>=> SAVE SEED PHRASE JANGAN LUPA <=<=<=
 
-##  Buat Validator
+# Request Saldo
+
+### Download Wallet Extension [DISINI](https://chromewebstore.google.com/detail/penumbra-wallet/lkpmkhpnhknhmibgnmmhdhgdilepfghe?hl=en-US&utm_source=ext_sidebar)
+###Import Phrase yang di buat tadi ke wallet kemudian request Faucet di Discord
+
+## pcli executable
 ```
-source $HOME/.bash_profile
+find / -name pcli 2>/dev/null
 ```
+## pcli PATH
+```
+echo "export PATH=\$PATH:/root/penumbra/target/release" >> $HOME/.profile
+source $HOME/.profile
+```
+## Cek Sync
+```
+pcli view sync
+```
+## Cek saldo
+```
+pcli view balance
+```
+
+# BUAT VALIDATOR
+
