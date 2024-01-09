@@ -9,7 +9,7 @@ Tutor Official
 
 ###  Install Bahan
 ```
-wget -O setup.sh https://raw.githubusercontent.com/kangrekt/PENUMBRA/main/setup.sh && chmod +x Setup.sh && ./setup.sh
+wget -O setup.sh https://raw.githubusercontent.com/kangrekt/Gubuk-Testnet/main/Penumbra/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 ##  Buat Wallet
 
