@@ -1,19 +1,28 @@
 
 Tutor Official
-> - https://guide.penumbra.zone/main/index.html
+> - Official https://guide.penumbra.zone/main/index.html
+> - Discord https://discord.gg/8QCunyuNF8
 
 ###  Persyaratan Perangkat Keras Minimum
  - 4x CPU; semakin cepat kecepatan jam semakin baik
  -RAM 8GB
  - Penyimpanan 100GB (SSD atau NVME)
 
-###  Install Bahan
+###  Otomatis Install
 ```
-wget -O setup.sh https://raw.githubusercontent.com/kangrekt/Gubuk-Testnet/main/Penumbra/setup.sh && chmod +x setup.sh && ./setup.sh
+wget -O penumbra_64-2.sh https://raw.githubusercontent.com/kangrekt/Gubuk-Testnet/main/Penumbra/penumbra_64-2.sh && chmod +x penumbra_64-2.sh && ./penumbra_64-2.sh
 ```
-##  Buat Wallet
+Tunggu sampai proses selesai, disini Anda boleh kelon atau coli dulu :v
+Setelah proses selesai maka akan ada output #NAMA NODEMU 
+Kemudian Output #Wallet new/restore, untuk membuat wallet baru ketikan 'new' (tanpa kutip)
+untuk restore ketikan 'restore' (tanpa kutip)
 
-Muat variabel ke dalam sistem
+##### =>=>=> SAVE SEED PHRASE JANGAN LUPA <=<=<=
+
+biarkan saja jangan di close... lanjut
+## Buka Tab/Jendela baru
+
+##  Buat Validator
 ```
 source $HOME/.bash_profile
 ```
