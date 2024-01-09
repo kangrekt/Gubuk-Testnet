@@ -42,5 +42,8 @@ pcli view sync
 pcli view balance
 ```
 
-# BUAT VALIDATOR
+# BUAT VALIDATOR OTOMATIS
+```
+wget -O https://raw.githubusercontent.com/kangrekt/Gubuk-Testnet/main/Penumbra/penumbra_validator.sh && chmod +x penumbra_validator.sh && ./penumbra_validator.sh
+```
 
