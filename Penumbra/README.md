@@ -44,6 +44,28 @@ pcli view balance
 
 # BUAT VALIDATOR OTOMATIS
 ```
-wget -O https://raw.githubusercontent.com/kangrekt/Gubuk-Testnet/main/Penumbra/penumbra_validator.sh && chmod +x penumbra_validator.sh && ./penumbra_validator.sh
+curl -O https://raw.githubusercontent.com/kangrekt/Gubuk-Testnet/main/Penumbra/penumbra_validator.sh && chmod +x penumbra_validator.sh && ./penumbra_validator.sh
 ```
+
+### Delegate Validatormu
+Cek Identitas validator
+```
+pcli validator identity
+```
+Delegate
+```
+pcli tx delegate 1penumbra --to <Identitas validatormu>
+```
+## Cek Status Validator
+```
+pcli query validator list -i
+```
+
+#UNTUK MENJADI AKTIVE SILAHKAN NUYUL FAUCET, SARAN PAKAI VPS LAIN UNTUK NUYUL..
+
+### Send saldo ke address lain
+```
+pcli tx send 10penumbra --to penumbrav2t...
+```
+#SELAMAT NGOPI
 
