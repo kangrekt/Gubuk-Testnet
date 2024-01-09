@@ -54,7 +54,7 @@ pcli validator identity
 ```
 Delegate
 ```
-pcli tx delegate 1penumbra --to <Identitas validatormu>
+pcli tx delegate 99penumbra --to <Identitas validatormu>
 ```
 ## Cek Status Validator
 ```
@@ -65,7 +65,7 @@ pcli query validator list -i
 
 ### Send saldo ke address lain
 ```
-pcli tx send 10penumbra --to penumbrav2t...
+pcli tx send 99penumbra --to penumbrav2t...
 ```
 #SELAMAT NGOPI
 
