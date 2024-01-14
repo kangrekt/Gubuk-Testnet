@@ -15,9 +15,7 @@ wget -O penumbra_64-2.sh https://raw.githubusercontent.com/kangrekt/Gubuk-Testne
 Tunggu sampai proses selesai, disini Anda boleh kelon atau coli dulu :v
 Setelah proses selesai maka akan ada output #NAMA NODEMU 
 Kemudian Output #Wallet new/restore, untuk membuat wallet baru ketikan 'new' (tanpa kutip)
-untuk restore ketikan 'restore' (tanpa kutip).. Setelah itu otomatis muncul output silahkan CTRL+C
-
-##### =>=>=> SAVE SEED PHRASE JANGAN LUPA <=<=<=
+untuk restore ketikan 'restore' (tanpa kutip).. Setelah itu otomatis muncul output silahkan CTRL+C kemudian SAVE SEED PHRASE JANGAN LUPA <=<=
 
 # Request Saldo
 
